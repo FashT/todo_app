@@ -55,7 +55,6 @@ db.updateDataBase();
 
   void deleteTask(int index){
 setState(() {
-  print('***********');
   db.toDoList.removeAt(index);
 });
 db.updateDataBase();
